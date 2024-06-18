@@ -1,0 +1,48 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+
+.gugi-font {
+    font-family: 'Gugi', cursive;
+}
+
+
+/* 네비게이션 영역 */
+.nav-link:hover,
+.nav-link.active {
+    color: #f1d88d !important;
+}
+
+
+/* 헤더 영역 */
+header {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(images/main.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+
+
+/* 서비스 섹션 */
+.card-hover:hover {
+    background-color: #ffc10726;
+}
+
+
+/* SNS 영역 */
+#sns-links {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(images/sns.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
